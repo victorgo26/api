@@ -1,0 +1,17 @@
+{
+  "name": "discord-notifier-api",
+  "version": "1.0.0",
+  "description": "API que recebe mensagens do bot e envia push via Firebase FCM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
